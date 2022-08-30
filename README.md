@@ -14,28 +14,23 @@ Details|Languages|Framework|
 **This readme will describe the frontend.** The backend is located in  [ZenTracker-Backend](https://github.com/Yas7777/ZenTracker-Backend).
 
 If you don't care to install it - this is how the overall app looks:
+(in Dark Mode):
+<img src="https://github.com/Yas7777/ZenTracker-Backend/blob/master/readme_assets/DarkMode.gif" width="860" height="360" />
 
 ## Installation and Tools
 
 TLDR: If these instructions aren't followed, this web app is just not going to work  🤷‍♀️
 
 1. Install an IDE of your choice.
-
 > I prefer Webstorm: https://www.jetbrains.com/pycharm/download/
-
 2. Clone this repository.
-
 3. Open the IDE terminal (preferred to avoid issues)
-
 4. Use command `npm install`
-
 5. Once its installed, use command `npm start`
-
 6. Create a `.env` file and type the following:
-
 -  `<PORT=8000>`. This is the port number on which the React app server will  run.
 
-The react application will run on `localhost:8000`.
+The frontend will run on `localhost:8000`.
 
 ##  Description
 
@@ -58,4 +53,5 @@ Details|Description|Links|
 * [ ] Deploy this app.
 * [ ] Given the sensitive nature of the app, I would like to add a secure login and authentication page.
 * [ ] Improve UI significantly.
+* [ ] Add more relevant form inputs.
 * [ ] Conduct trend analysis on the data received and display interesting visualizations next to the tracker.  
