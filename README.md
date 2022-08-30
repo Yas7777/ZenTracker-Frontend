@@ -21,7 +21,7 @@ If you don't care to install it - this is how the overall app looks:
 TLDR: If these instructions aren't followed, this web app is just not going to work  🤷‍♀️
 
 1. Install an IDE of your choice.
-> I prefer Webstorm: https://www.jetbrains.com/pycharm/download/
+> I prefer Webstorm: https://www.jetbrains.com/webstorm/download/
 2. Clone this repository.
 3. Open the IDE terminal (preferred to avoid issues)
 4. Use command `npm install`
