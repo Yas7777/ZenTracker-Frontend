@@ -1,70 +1,61 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Record Your Zen - Frontend
 
-## Available Scripts
+Inspired by a tracker we built in school and the Daylio app, I wanted to track my ever changing moods in a very simplified manner.
 
-In the project directory, you can run:
+In its essence, this is a web application using  MongoDB,  Express, React and Node.js to do CRUD operations to keep track of user's moods.  The app is comprised of a react frontend application and an express back-end REST api. This api will be used in conjunction with the React app which provides a user-interface for the web app.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Details|Languages|Framework|
+|--|--|--|
+|Frontend  |JavaScript |HTML, CSS, React |
+|Backend  | JavaScript| ExpressJs, NodeJS, MongoDB |
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+**This readme will describe the frontend.** The backend is located in  [ZenTracker-Backend](https://github.com/Yas7777/ZenTracker-Backend).
 
-### `npm test`
+If you don't care to install it - this is how the overall app looks:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation and Tools
 
-### `npm run build`
+TLDR: If these instructions aren't followed, this web app is just not going to work  🤷‍♀️
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Install an IDE of your choice.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> I prefer Webstorm: https://www.jetbrains.com/pycharm/download/
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Clone this repository.
 
-### `npm run eject`
+3. Open the IDE terminal (preferred to avoid issues)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+4. Use command `npm install`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Once its installed, use command `npm start`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+6. Create a `.env` file and type the following:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-  `<PORT=8000>`. This is the port number on which the React app server will  run.
 
-## Learn More
+The react application will run on `localhost:8000`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+##  Description
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The frontend user-interface (UI) uses React and consists of 3 pages, a Navigation Bar and Dark Mode  :alien:. More details below!
 
-### Code Splitting
+Details|Description|Links|
+|--|--|--|
+|Home Page |Displays user moods currently stored in the MongoDB moods collection.| Summary Table with delete and edit icons that deletes or edits the entry accordingly|
+|Add Page |Form consists of mood options, a place to type notes and the date. The user is automatically taken back to the Home Page once the form is completed. |‘Add’ button adds an entry to the database (calls the REST API endpoint to create a entry). |
+|Edit Page | The form is automatically filled-in when the page is loaded with controls to edit the data.| ‘Save’ button updates the entry in the database (calls the REST API endpoint to update a entry).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+##  🔥My Hot Takes🔥
 
-### Analyzing the Bundle Size
+* I like my dark mode.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+* For a Zen tracker, it doesn't look particularly zen.  I struggled with CSS (probably evidenced by the GIF). I intend to improve it significantly in the coming months using bootstrap or other templating tools.
 
-### Making a Progressive Web App
+##  Future Improvements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* [ ] Deploy this app.
+* [ ] Given the sensitive nature of the app, I would like to add a secure login and authentication page.
+* [ ] Improve UI significantly.
+* [ ] Conduct trend analysis on the data received and display interesting visualizations next to the tracker.  
