@@ -1,0 +1,206 @@
+
+ /*Font*/
+ @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+ /* Style buttons */
+ body {
+     font-family: Muli, serif;
+ }
+ body {                     /* Can alternatively define in html {} or :root {} */
+    color: black;
+    background-color: #F2F1E8;
+    /*font-family:Muli, serif;*/
+    margin:0 auto;
+    min-height: 100%;
+    /*max-width: 80%;*/
+    padding: 15px;
+}
+ #bannerimage {
+     width: 100%;
+     background-image: url('./components/Record your Zen.png');
+     height: 205px;
+     background-position: left;
+     display:grid;
+ }
+
+ table {
+     text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     table-layout: fixed;
+     border-collapse: collapse;
+     border: 3px solid black;
+ }
+
+ th {
+     padding-inline: 10px;
+     border: 3px solid black;
+
+ }
+
+ tr {
+     border: 3px solid black
+ }
+
+ td {
+     padding-inline: 5px;
+     border: 3px solid black;
+ }
+
+ /*  ----- Form ----- */
+ form, select, textarea {
+     /*font-family: Muli, serif;*/
+     width: 100%;
+ }
+ input {
+     /*font-family: Muli, serif;*/
+     padding: 1%;
+     font-size: 120%;
+     box-sizing: border-box;
+ }
+
+ input[type=text] {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+ }
+ select {
+     width: 100%;
+     padding: 16px 20px;
+     border: none;
+     border-radius: 4px;
+     background-color: #F2F1E8
+ }
+
+ fieldset {
+     /*border: 2px solid navy;*/
+     /*background-color: beige;*/
+     margin-bottom: 4%;
+ }
+ legend {
+     background-color: silver;
+     /*border: 2px solid navy;*/
+     border-bottom: 0;
+ }
+ label {
+     display: block;
+     margin-top: 3%;
+     font-size: 100%;
+     /*color: #3f0f2e;*/
+
+ }
+ /*Button*/
+ button {
+     /*font-family: Muli, serif;*/
+     font-size: 120%;
+     width:100%;
+     background-color: #DCB1CE;
+     padding: 15px 32px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     color: whitesmoke;
+     font-weight: bold;
+
+ }
+ /*button:hover {*/
+ /*    padding:5px;*/
+ /*    background-color: #F2F1E8;*/
+ /*    color: black;*/
+ /*    text-align: center;*/
+ /*    text-decoration: none;*/
+ /*    display: inline-block;*/
+ /*    font-size: 15px;*/
+ /*    height: 30px;*/
+
+ /*}*/
+ /*Footer*/
+ footer {
+     padding:1px;
+     background:none;
+     overflow: hidden;
+     border-radius:3px;
+     text-align: left;
+     text-decoration: none;
+     font-size: 11px;
+     color:gray;
+ }
+ /* ----- Anchors ----- Text links */
+
+a:link {
+    color:black;
+    text-decoration: none;
+}
+/*a:hover {*/
+/*    color:deeppink;*/
+/*    background-color: deeppink;*/
+/*}*/
+
+
+/*  ----- Navigation ----- Override text links for navigation only.  */
+nav {
+    /*background-color:beige;*/
+    color:black;
+    /*border:1px solid beige;*/
+    font-size:14;
+    font-weight:bolder ;
+    line-height: 1;
+    margin:15px;
+    padding: 15px;
+    text-decoration: none;
+    vertical-align: left;
+}
+
+/*  ----- Page layout blocks -----  */
+header{
+    /*background-color:beige;*/
+    /*color: deeppink;*/
+    /*border:2px solid ;*/
+    font-size: 14px;
+    font-weight:bolder;
+    /*margin:0;*/
+    /*padding: 1.5%;*/
+}
+
+
+main {
+    /*background-color: palevioletred;*/
+    color:grey;
+    /*border:2px solid midnightblue;*/
+    padding:1.5%;
+}
+section {
+    /*background-color: beige;*/
+    padding: 0 2% 5% 10%;
+}
+
+/* PAGE LAYOUT*/
+
+h1 {
+    padding:1px;
+    /*color: black;*/
+    border-radius:3px;
+    text-align: left;
+    text-decoration: none;
+    font-size: 44px;
+    background: none;
+}
+h2 {
+    padding:1px;
+    /*color: black;*/
+    border-radius:3px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    background: none;
+}
+
+article {
+    border-bottom:1px solid gray;
+}
+
+/* NAVIGATION
+Simple changes to make anchors look like buttons.
+*/
+nav {margin: 4px 0 0 0;}

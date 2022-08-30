@@ -1,0 +1,88 @@
+body {
+    font-family: Muli, serif;
+}
+
+header {
+    margin: 0;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
+    /*'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
+    /*!*sans-serif;*!*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+
+    /*Light Mode*/
+    --color: #36393f;
+    --background-color:rgb(250,250,250);
+    color:var(--color);
+    background-color: var(--background-color);
+}
+/*Dark Mode*/
+header.dark-mode{
+    --color:rgb(250,250,250);
+    --background-color: #36393f;
+
+    color:var(--color);
+    background-color: var(--background-color);
+}
+
+footer {
+    margin: 0;
+    /*font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',*/
+    /*'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',*/
+    /*sans-serif;*/
+    /*-webkit-font-smoothing: antialiased;*/
+    /*-moz-osx-font-smoothing: grayscale;*/
+
+    /*Light Mode*/
+    --color: #36393f;
+    --background-color:rgb(250,250,250);
+    color:var(--color);
+    background-color: var(--background-color);
+}
+/*Dark Mode*/
+footer.dark-mode{
+    --color:rgb(250,250,250);
+    --background-color: #36393f;
+
+    color:var(--color);
+    background-color: var(--background-color);
+}
+
+
+body {
+    margin: 0;
+
+
+    /*Light Mode*/
+    --color: #36393f;
+    --background-color:rgb(250,250,250);
+    color:var(--color);
+    background-color: var(--background-color);
+}
+
+/*Dark Mode*/
+body.dark-mode{
+    --color:rgb(250,250,250);
+    --background-color: #36393f;
+
+    color:var(--color);
+    background-color: var(--background-color);
+}
+label.dark-mode{
+    --color:rgb(250,250,250);
+    --background-color: #36393f;
+
+    color:var(--color);
+    background-color: var(--background-color);
+}
+Switch{
+    cursor:pointer;
+    /*padding:1rem;*/
+    font-size:20px;
+    height: 20%;
+    width:20%;
+    /*border:2px solid var(--color);*/
+    alignment:center;
+    color: black;
+    background-color:#DCB1CE;
+}

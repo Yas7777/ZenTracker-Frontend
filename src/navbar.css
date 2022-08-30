@@ -1,0 +1,35 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0;
+    font-family: Muli, serif;
+}
+
+.nav{
+    background-color: #DCB1CE;
+    color: white;
+    /*display: flex;*/
+    justify-content: space-between;
+    align-items: stretch;
+    gap:4rem;
+    /*padding: 0 1rem;*/
+    height: 120%;
+}
+.nav ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+    display:flex;
+    gap:1rem;
+    color: white;
+}
+.nav-a{
+    color:white;
+    text-decoration: none;
+    height: 100%;
+    display:flex;
+    align-items: center;
+    padding: .25rem;
+
+}
