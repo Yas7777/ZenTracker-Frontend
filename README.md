@@ -7,7 +7,7 @@ In its essence, this is a web application using  MongoDB, Express, React and Nod
 
 Details|Languages|Framework|
 |--|--|--|
-|Frontend  |JavaScript |HTML, CSS, React |
+|Frontend  |JavaScript,HTML, CSS |React |
 |Backend  | JavaScript| ExpressJs, NodeJS, MongoDB |
 
 **This readme describes the frontend. For this app to work in all its glory, the frontend and backend ( [ZenTracker-Backend](https://github.com/Yas7777/ZenTracker-Backend)) needs to be opened in two seperate windows and run concurrently.**
