@@ -37,8 +37,7 @@ function EditEntryPage({ entryToEdit }) {
   return (
     <>
     <article>
-      <h2>Edit your Gains</h2>
-      <p>Did Your Overinflate Your Gains? Fix it here</p>
+      <h2>Fix Your Story (not too much!)</h2>
 
         <fieldset>
 

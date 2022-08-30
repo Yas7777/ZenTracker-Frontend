@@ -33,7 +33,7 @@ function AddEntryPage() {
   return (
     <>
     <article>
-    <h2>Add your Gains</h2>
+    <h2>Add Your Story Here!</h2>
 
         <fieldset>
             <label htmlFor="mood">Mood</label>
