@@ -3,7 +3,7 @@
 
 Inspired by a tracker we built in school and the Daylio app, I wanted to track my ever changing moods in a very simplified manner.
 
-In its essence, this is a web application using  MongoDB, Express, React and Node.js to do CRUD operations that keeps track of user's moods.  The app is comprised of a react frontend application and an express back-end REST api. 
+In its essence, this is a web application using  MongoDB, Express, React and Node.js to do CRUD operations that keeps track of user's moods.  The app is comprised of a react frontend application and an express back-end using REST api. 
 
 Details|Languages|Framework|
 |--|--|--|
